@@ -10,19 +10,25 @@
     margin: 0;
 }
 body{
-    background: #eee;
+    background: #1e6a77;
+    
 }
 .wrapper{
     width: 100%
     max-width: 960px;
     margin: 0 auto;
+    
 }
 nav{
-    background: #333;
+    background: #c91d1d;
+    border-radius: 30px;
 }
 nav ul{
     list-style-type: none;
     padding: 0;
+    
+
+    
 }
 
 nav a{
@@ -31,9 +37,11 @@ nav a{
     color: #fff;
     display: block;
     padding: 10px;
+    
 }
 nav a:hover{
     background-color: #555;
+    border-radius: 30px;
 }
 @media  screen and (min-width: 768px) {
     
@@ -41,7 +49,27 @@ nav a:hover{
 nav ul{
     display: flex;
     justify-content: flex-start;
+    border-radius: 30px;
 }
 nav li{
-
+    
+        
+    }
+h1,h2,h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+        border-inline: solid;writing-mode: horizontal-tb;
+        border-radius: 30px;
+        background-color: #fff;
+}
+.specials {
+    background-color: rgb(255, 255, 255);
+    
+}  
+@media  and (min-width: 993px)
+.specials 
+background-color:red;
+{
+    
+}
 }
